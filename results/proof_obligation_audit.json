@@ -1,0 +1,18 @@
+{
+  "conditional_rank_three_witness_verified": true,
+  "degenerate_overlap_not_transverse_verified": true,
+  "matrix_size_rank_separation_verified": true,
+  "pi_countermodel_verified": true,
+  "pii_countermodel_verified": true,
+  "primitive_non_derivability_finite_witness_pair_verified": true,
+  "rank_three_cyclic_closure_verified": true,
+  "rank_two_defined_zero_coupling_verified": true,
+  "rank_two_whole_span_normal_zero_dim_verified": true,
+  "rank_two_witness_verified": true,
+  "same_rank_property_value_obstruction_verified": true,
+  "same_size_block_value_obstruction_verified": true,
+  "scalar_collision_obstruction_verified": true,
+  "scope": "finite exact witnesses and necessary obstructions only; general theorems remain manuscript proofs",
+  "single_normal_match_insufficient_verified": true,
+  "undefined_rank_distinct_from_defined_zero_verified": true
+}

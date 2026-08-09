@@ -1,0 +1,110 @@
+{
+  "author": "Kwon Dominicus",
+  "conditional_rank_three_witness": {
+    "dimension_sum": 3,
+    "intrinsic_normal_dimension": 1,
+    "rank_three_conclusion": true,
+    "realized_span_dimension": 3,
+    "subspace_dimension": 2,
+    "subspace_nondegenerate": true
+  },
+  "degenerate_radical_witness": {
+    "line_is_in_ambient_normal": true,
+    "line_is_transverse": false,
+    "radical_basis": [[0, 1]],
+    "radical_dimension": 1,
+    "subspace_dimension": 1,
+    "subspace_nondegenerate": false
+  },
+  "interpretation_boundary": "finite exact witness reproduction; general set-theoretic theorems remain manuscript proofs",
+  "matrix_size_rank_witness": {
+    "block": [[1, 0, 1], [0, 1, 0], [1, 0, 1]],
+    "block_size": 3,
+    "block_size_differs_from_realized_rank": true,
+    "block_size_equals_tag_count": true,
+    "realized_rank": 2,
+    "tag_count": 3
+  },
+  "paper": "Axioms for the Property Structure of Realized Axes in Dimensional-Structural Describability",
+  "primitive_countermodels": {
+    "PII_failure_PI_satisfied": {"PI": true, "PII": false},
+    "PI_failure_PII_satisfied": {"PI": false, "PII": true}
+  },
+  "proof_obligation_audit": {
+    "conditional_rank_three_witness_verified": true,
+    "degenerate_overlap_not_transverse_verified": true,
+    "matrix_size_rank_separation_verified": true,
+    "pi_countermodel_verified": true,
+    "pii_countermodel_verified": true,
+    "primitive_non_derivability_finite_witness_pair_verified": true,
+    "rank_three_cyclic_closure_verified": true,
+    "rank_two_defined_zero_coupling_verified": true,
+    "rank_two_whole_span_normal_zero_dim_verified": true,
+    "rank_two_witness_verified": true,
+    "same_rank_property_value_obstruction_verified": true,
+    "same_size_block_value_obstruction_verified": true,
+    "scalar_collision_obstruction_verified": true,
+    "scope": "finite exact witnesses and necessary obstructions only; general theorems remain manuscript proofs",
+    "single_normal_match_insufficient_verified": true,
+    "undefined_rank_distinct_from_defined_zero_verified": true
+  },
+  "rank_status_witnesses": {
+    "rank_inapplicable": null,
+    "rank_one": 1,
+    "rank_one_distinct_pair_domain_empty": true,
+    "rank_zero": 0,
+    "undefined_is_distinct_from_zero": true
+  },
+  "rank_three_cyclic_witness": {
+    "cyclic_closed": true,
+    "lines_independent": true,
+    "pair_normals": {"12": [[0, 0, 1]], "23": [[1, 0, 0]], "31": [[0, 1, 0]]},
+    "rank": 3
+  },
+  "rank_two_witness": {
+    "canonical_independence": true,
+    "canonical_orthogonality": true,
+    "closure_bildep": 0,
+    "defined_zero_coupling": true,
+    "formal_bildep": 0,
+    "option_typing": true,
+    "pi": true,
+    "pii": true,
+    "rank": 2,
+    "recorded_independence": 1,
+    "recorded_orthogonality": 1,
+    "whole_span_intrinsic_normal_dimension": 0
+  },
+  "same_rank_different_property_witness": {
+    "left_rank": 3,
+    "left_value": 1,
+    "ranks_equal": true,
+    "right_rank": 3,
+    "right_value": 2,
+    "strict_value_preservation_obstruction": true
+  },
+  "same_size_block_obstruction": {
+    "left_block": [[1, 0], [0, 1]],
+    "one_defined_relation_entry_differs": true,
+    "representation_inclusive_value_preservation_obstruction": true,
+    "right_block": [[1, 1], [0, 1]],
+    "same_size": true
+  },
+  "scalar_collision_witness": {
+    "indicators_left": {"declared_property_kinds": 1, "selected_channels": 3},
+    "indicators_right": {"declared_property_kinds": 1, "selected_channels": 3},
+    "left_summary": 133,
+    "rank": 3,
+    "right_summary": 133,
+    "same_displayed_summary": true,
+    "typed_property_value_obstruction": true,
+    "weights": {"declared_property_kinds": 100, "selected_channels": 10}
+  },
+  "single_normal_insufficient_witness": {
+    "cyclic_closed_for_123": false,
+    "ell3_is_contained_in_normal_12": true,
+    "normal_12": [[0, 0, 1, 0], [0, 0, 0, 1]],
+    "normal_12_is_one_dimensional": false,
+    "rank": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Axioms for the Property Structure of Realized Axes: Reproducibility Package",
+  "upload_type": "software",
+  "description": "Deterministic Python companion reproducing the explicit finite countermodels, axis-property witnesses, linear-algebra checks, and classification obstructions from Kwon Dominicus, Axioms for the Property Structure of Realized Axes in Dimensional-Structural Describability.",
+  "creators": [
+    {
+      "name": "Kwon, Dominicus"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Dimensional-Structural Describability",
+    "axiom system",
+    "realized axes",
+    "property structure",
+    "reproducibility",
+    "finite witnesses",
+    "symmetric bilinear forms"
+  ]
+}

@@ -1,0 +1,25 @@
+name: reproducibility
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Reproduce deterministic results
+        run: python src/axis_property_reproduction.py --output-dir results
+      - name: Verify results
+        run: python src/verify_axis_property_results.py --results-dir results
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Ensure committed results are reproducible
+        run: git diff --exit-code -- results
