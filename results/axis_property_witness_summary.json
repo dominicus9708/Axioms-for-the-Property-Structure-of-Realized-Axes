@@ -11,14 +11,35 @@
   "degenerate_radical_witness": {
     "line_is_in_ambient_normal": true,
     "line_is_transverse": false,
-    "radical_basis": [[0, 1]],
+    "radical_basis": [
+      [
+        0,
+        1
+      ]
+    ],
     "radical_dimension": 1,
     "subspace_dimension": 1,
     "subspace_nondegenerate": false
   },
   "interpretation_boundary": "finite exact witness reproduction; general set-theoretic theorems remain manuscript proofs",
   "matrix_size_rank_witness": {
-    "block": [[1, 0, 1], [0, 1, 0], [1, 0, 1]],
+    "block": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
     "block_size": 3,
     "block_size_differs_from_realized_rank": true,
     "block_size_equals_tag_count": true,
@@ -27,8 +48,14 @@
   },
   "paper": "Axioms for the Property Structure of Realized Axes in Dimensional-Structural Describability",
   "primitive_countermodels": {
-    "PII_failure_PI_satisfied": {"PI": true, "PII": false},
-    "PI_failure_PII_satisfied": {"PI": false, "PII": true}
+    "PII_failure_PI_satisfied": {
+      "PI": true,
+      "PII": false
+    },
+    "PI_failure_PII_satisfied": {
+      "PI": false,
+      "PII": true
+    }
   },
   "proof_obligation_audit": {
     "conditional_rank_three_witness_verified": true,
@@ -58,7 +85,29 @@
   "rank_three_cyclic_witness": {
     "cyclic_closed": true,
     "lines_independent": true,
-    "pair_normals": {"12": [[0, 0, 1]], "23": [[1, 0, 0]], "31": [[0, 1, 0]]},
+    "pair_normals": {
+      "12": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "23": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "31": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
     "rank": 3
   },
   "rank_two_witness": {
@@ -84,26 +133,66 @@
     "strict_value_preservation_obstruction": true
   },
   "same_size_block_obstruction": {
-    "left_block": [[1, 0], [0, 1]],
+    "left_block": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
     "one_defined_relation_entry_differs": true,
     "representation_inclusive_value_preservation_obstruction": true,
-    "right_block": [[1, 1], [0, 1]],
+    "right_block": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
     "same_size": true
   },
   "scalar_collision_witness": {
-    "indicators_left": {"declared_property_kinds": 1, "selected_channels": 3},
-    "indicators_right": {"declared_property_kinds": 1, "selected_channels": 3},
+    "indicators_left": {
+      "declared_property_kinds": 1,
+      "selected_channels": 3
+    },
+    "indicators_right": {
+      "declared_property_kinds": 1,
+      "selected_channels": 3
+    },
     "left_summary": 133,
     "rank": 3,
     "right_summary": 133,
     "same_displayed_summary": true,
     "typed_property_value_obstruction": true,
-    "weights": {"declared_property_kinds": 100, "selected_channels": 10}
+    "weights": {
+      "declared_property_kinds": 100,
+      "selected_channels": 10
+    }
   },
   "single_normal_insufficient_witness": {
     "cyclic_closed_for_123": false,
     "ell3_is_contained_in_normal_12": true,
-    "normal_12": [[0, 0, 1, 0], [0, 0, 0, 1]],
+    "normal_12": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
     "normal_12_is_one_dimensional": false,
     "rank": 4
   }
